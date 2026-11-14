@@ -1,0 +1,26 @@
+{
+  "mainRepo": "leveo/church4christ",
+  "version": "v1.4.0",
+  "preset": "checkin",
+  "homepage": "https://church4christ.yunfei-song.com/en/sandbox",
+  "description": "Open-source church check-in: a kids check-in kiosk with pickup codes, a live roster, and attendance charts. Self-hosted on Cloudflare, English and Chinese. A Church4Christ edition.",
+  "topics": [
+    "church",
+    "church-checkin",
+    "kids-checkin",
+    "child-check-in",
+    "childrens-ministry",
+    "kiosk",
+    "check-in",
+    "church-management",
+    "chms",
+    "church4christ",
+    "self-hosted",
+    "nonprofit",
+    "bilingual",
+    "cloudflare-workers",
+    "cloudflare-d1",
+    "astro",
+    "planning-center-alternative"
+  ]
+}
