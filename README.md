@@ -4,10 +4,10 @@ A kids check-in kiosk for your church. Parents check children in on a tablet and
 
 This repository is the **Children Check-in** edition of [Church4Christ](https://github.com/leveo/church4christ), an open-source
 church management system and website. It contains no separate code: the quick start below
-installs Church4Christ v1.4.0 with only the Children Check-in features switched on (People & Households, Children Check-in).
+installs Church4Christ v1.5.0 with only the Children Check-in features switched on (People & Households, Children Check-in).
 Everything else stays off until you turn it on.
 
-**[Try the live demo](https://church4christ.yunfei-song.com/en/sandbox)** · [Main repository](https://github.com/leveo/church4christ) · [Setup guide](https://github.com/leveo/church4christ/blob/v1.4.0/docs/setup.md)
+**[Try the live demo](https://church4christ.yunfei-song.com/en/sandbox)** · [Main repository](https://github.com/leveo/church4christ) · [Setup guide](https://github.com/leveo/church4christ/blob/v1.5.0/docs/setup.md)
 
 ## What you get
 
@@ -22,13 +22,13 @@ Everything else stays off until you turn it on.
 
 ## Screenshots
 
-![The kiosk: a parent finds their household by name or phone](https://raw.githubusercontent.com/leveo/church4christ/v1.4.0/docs/images/public/kiosk-search.png)
+![The kiosk: a parent finds their household by name or phone](https://raw.githubusercontent.com/leveo/church4christ/v1.5.0/docs/images/public/kiosk-search.png)
 
-![The pickup code shown right after check-in](https://raw.githubusercontent.com/leveo/church4christ/v1.4.0/docs/images/public/kiosk-code.png)
+![The pickup code shown right after check-in](https://raw.githubusercontent.com/leveo/church4christ/v1.5.0/docs/images/public/kiosk-code.png)
 
-![Children's ministry dashboard with the 12-week attendance chart](https://raw.githubusercontent.com/leveo/church4christ/v1.4.0/docs/images/admin/children-dashboard.png)
+![Children's ministry dashboard with the 12-week attendance chart](https://raw.githubusercontent.com/leveo/church4christ/v1.5.0/docs/images/admin/children-dashboard.png)
 
-![Today's live roster with pickup codes and staff checkout](https://raw.githubusercontent.com/leveo/church4christ/v1.4.0/docs/images/admin/children-today.png)
+![Today's live roster with pickup codes and staff checkout](https://raw.githubusercontent.com/leveo/church4christ/v1.5.0/docs/images/admin/children-today.png)
 
 ## Try the live demo
 
@@ -40,7 +40,7 @@ You need [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/) 22.22.1 
 These commands work in macOS and Linux terminals and in Windows PowerShell.
 
 ```bash
-git clone --depth 1 --branch v1.4.0 https://github.com/leveo/church4christ.git my-church
+git clone --depth 1 --branch v1.5.0 https://github.com/leveo/church4christ.git my-church
 cd my-church
 npm ci
 npm run onboard -- --preset checkin
@@ -72,14 +72,14 @@ computer, sign-in links print to the terminal instead of being emailed.
 This is the complete Church4Christ codebase with a focused starting point. When you are
 ready, an administrator can turn on more features (sermons, events, volunteers, groups,
 check-in, and more) in **Settings → Modules**, without reinstalling. Upgrades follow the
-main repository's [upgrade guide](https://github.com/leveo/church4christ/blob/v1.4.0/docs/upgrade.md).
+main repository's [upgrade guide](https://github.com/leveo/church4christ/blob/v1.5.0/docs/upgrade.md).
 
 ## Learn more
 
-- [Children's check-in](https://github.com/leveo/church4christ/blob/v1.4.0/docs/features/children-checkin.md)
-- [People & households](https://github.com/leveo/church4christ/blob/v1.4.0/docs/features/people-households.md)
-- [Service attendance (optional add-on)](https://github.com/leveo/church4christ/blob/v1.4.0/docs/features/service-attendance.md)
-- [Putting it online with Cloudflare](https://github.com/leveo/church4christ/blob/v1.4.0/docs/setup.md)
+- [Children's check-in](https://github.com/leveo/church4christ/blob/v1.5.0/docs/features/children-checkin.md)
+- [People & households](https://github.com/leveo/church4christ/blob/v1.5.0/docs/features/people-households.md)
+- [Service attendance (optional add-on)](https://github.com/leveo/church4christ/blob/v1.5.0/docs/features/service-attendance.md)
+- [Putting it online with Cloudflare](https://github.com/leveo/church4christ/blob/v1.5.0/docs/setup.md)
 
 ## 中文简介
 
@@ -95,7 +95,7 @@ main repository's [upgrade guide](https://github.com/leveo/church4christ/blob/v1
 - 中英文界面，报到机一键切换语言。
 
 本仓库是 [Church4Christ](https://github.com/leveo/church4christ) 的单一功能版本，不包含另外的代码。按上面的快速开始安装后，
-得到的是完整的 Church4Christ v1.4.0，只预先开启了这一组功能；以后可以在「设置 → 模块」里开启更多功能。
+得到的是完整的 Church4Christ v1.5.0，只预先开启了这一组功能；以后可以在「设置 → 模块」里开启更多功能。
 
 ## Questions and issues
 
